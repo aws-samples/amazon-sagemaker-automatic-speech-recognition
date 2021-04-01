@@ -38,7 +38,9 @@ sh-4.2$ mkdir native_clients; cd native_clients ; wget -c https://github.com/moz
 ```
 Once the files are downloaded and unpacked, you can generate the scorer package from the files generated at the previous step:
 
-```sh-4.2$ generate_scorer_package --alphabet ./alphabet.txt --lm lm.binary --vocab vocab-500000.txt --package kenlm.scorer --default_alpha 0.6560092006459668 --default_beta 2.3034529727156823```
+```bash
+sh-4.2$ generate_scorer_package --alphabet ./alphabet.txt --lm lm.binary --vocab vocab-500000.txt --package kenlm.scorer --default_alpha 0.6560092006459668 --default_beta 2.3034529727156823
+```
 
 The `default_alpha` and `default_beta` values are used to assign initial wieghts to a sequence of words. The can be tuned and optimized after training a model. 
 
