@@ -48,9 +48,10 @@ The `default_alpha` and `default_beta` values are used to assign initial wieghts
 
 
 ## Start Training
-WIP
+Refer to the [Notebook](notebook/DeepSpeech-SageMaker.ipynb) for training and preparing the SageMaker container.
 
 ## Roadmap
+- ---Build local Inference--- (Completed)
 - Build a SageMaker Inference (WIP)
 - Include steps to optimize inference requests (tuning lm_alpha and lm_beta values involved in creating scorer) (WIP)
 - Multi-instance GPU training (WIP)
