@@ -1,8 +1,8 @@
 ## Automatic Speech Recognition using DeepSpeech on Amazon SageMaker
 <p align="center">
-  <img width="200" height="200" src="./assets/speech.png">
+  <img width="200" height="180" src="./assets/speech.png">
 </p>
----
+
 
 **Speech Recognition** is the task of translating and converting spoken language into text. Audio data is virtually very difficult for computer systems to search and analyze. Therefore, recorded speech needs to be converted to text before it can be used in various different applications. Automatic Speech Recognition is the task of using deep supervised learning techniques to automatically and accurately convert speech into text. This code is an example of how to use [DeepSpeech](https://github.com/mozilla/DeepSpeech) library to prepare, build, train and host a model using Amazon SageMaker.
 
