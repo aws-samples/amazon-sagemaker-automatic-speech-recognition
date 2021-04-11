@@ -1,4 +1,5 @@
 ## Automatic Speech Recognition using DeepSpeech on Amazon SageMaker
+#### Train your own automatic speech recognition model and deploy it anywhere
 <p align="center">
   <img width="200" height="180" src="./assets/speech.png">
 </p>
@@ -9,7 +10,7 @@
 **DeepSpeech** is an open source Speech-To-Text engine based on Baidu’s Deep Speech research [paper](https://arxiv.org/pdf/1412.5567.pdf) which implements the DeepSpeech architecture in Tensorflow.
 
 ## Data Preparation
-In this example, we will use the common voice dataset format to train an Arabic ASR model but the setup applies to any other language in the common voice dataset format. We will need to run a few steps to prepare the data, alphabet file, language model, and the scorer. Let's start with the data format:
+In this example, we will use the [Common Voice Dataset](https://commonvoice.mozilla.org/en/datasets) format to train an Arabic ASR model but the setup applies to any other language in the common voice dataset format. We will need to run a few steps to prepare the data, alphabet file, language model, and the scorer. Let's start with the data format:
 
 ### Data format:
 CV dataset has three columns as below:
