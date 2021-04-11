@@ -60,7 +60,7 @@ Refer to the [Notebook](notebook/DeepSpeech-SageMaker.ipynb) for training and pr
 - Build a SageMaker Inference (WIP)
 - Include steps to optimize inference requests (tuning lm_alpha and lm_beta values involved in creating scorer) (WIP)
 - Multi-instance GPU training (WIP)
-- Support fine tuning.
+- Support fine-tuning.
 - Support transfer learning.
 - Add steps to create alphabet, vocab files for any language.
 
