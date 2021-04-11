@@ -11,6 +11,8 @@
 ## Data Preparation
 In this example, we will use the [Common Voice Dataset](https://commonvoice.mozilla.org/en/datasets) format to train an Arabic ASR model but the setup applies to any other language in the common voice dataset format. We will need to run a few steps to prepare the data, alphabet file, language model, and the scorer. Let's start with the data format:
 
+**Note:** In this example, we use the Arabic dataset but you can replace the Arabic dataset with any other language and it will work as long as you follow the necessary preparation steps.  
+
 ### Data format:
 CV dataset has three columns as below:
 
